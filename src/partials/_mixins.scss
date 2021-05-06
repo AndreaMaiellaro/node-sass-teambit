@@ -1,0 +1,14 @@
+//mixins
+@mixin floating-colums {
+    float: left;
+    height: 100%;
+    font-size: small;
+}
+
+@mixin flex-centered-content {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
