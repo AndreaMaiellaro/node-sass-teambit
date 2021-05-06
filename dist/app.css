@@ -74,9 +74,14 @@ button img {
   width: 800px;
 }
 
-.main {
+main {
   background-color: #ffe7d2;
   color: #58402c;
+}
+
+.bg-light {
+  text-align: center;
+  padding: 30px;
 }
 
 .top {
@@ -85,4 +90,54 @@ button img {
 
 .bg-light img {
   width: 150px;
+}
+
+.bg-white {
+  background-color: white;
+  padding: 30px 0;
+}
+
+.bg-white a {
+  display: inherit;
+}
+
+.row {
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  text-align: right;
+}
+
+.right {
+  width: 50%;
+}
+
+.max img {
+  width: 100%;
+}
+
+.min img {
+  width: 50%;
+}
+
+.text {
+  width: 30%;
+}
+
+.left .text {
+  float: right;
+}
+
+.text h4 {
+  margin-bottom: 40px;
+}
+
+.text p {
+  margin-bottom: 20px;
+}
+
+.text a {
+  margin-bottom: 40px;
 }
