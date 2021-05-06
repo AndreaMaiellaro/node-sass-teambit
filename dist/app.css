@@ -16,6 +16,7 @@ nav {
 }
 
 .menu {
+  color: #58402c;
   list-style-type: none;
   text-align: left;
   display: inline-block;
@@ -23,7 +24,7 @@ nav {
 
 .menu li {
   display: inline-block;
-  line-height: 25px;
+  line-height: 30px;
   margin-right: 10px;
 }
 
@@ -36,4 +37,52 @@ button {
 
 button img {
   width: 15px;
+}
+
+.jumbotron {
+  display: flex;
+  color: #58402c;
+}
+
+.jb-right {
+  width: 50%;
+  margin-top: 25px;
+}
+
+.jb-right h2 {
+  font-size: 50px;
+}
+
+.jb-right h4 {
+  padding: 10px 0 40px 0;
+}
+
+.jb-right button {
+  color: white;
+  background-color: #2e4790;
+}
+
+.jb-right h5 {
+  margin-top: 15px;
+}
+
+.jb-left {
+  width: 50%;
+}
+
+.jb-left img {
+  width: 800px;
+}
+
+.main {
+  background-color: #ffe7d2;
+  color: #58402c;
+}
+
+.top {
+  border-bottom: 1px solid #58402c;
+}
+
+.bg-light img {
+  width: 150px;
 }

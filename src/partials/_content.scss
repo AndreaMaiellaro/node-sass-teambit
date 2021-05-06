@@ -2,11 +2,12 @@
 
 nav {
     padding: 15px;
-    border-bottom: 1px solid #58402c;
+    border-bottom: 1px solid $brand_primary_color;
     display: flex;
 }
 
 .menu {
+    color: $brand_primary_color;
     list-style-type: none;
     text-align: left;
     display: inline-block;
@@ -27,4 +28,56 @@ button {
 
 button img {
     width: 15px;
+}
+
+//jumbotron
+
+.jumbotron {
+    display: flex;
+    color: $brand_primary_color;
+}
+
+.jb-right {
+    width: 50%;
+    margin-top: 25px;
+}
+
+.jb-right h2 {
+    font-size: 50px;
+}
+
+.jb-right h4 {
+    padding: 10px 0 40px 0;
+}
+
+.jb-right button {
+    color: white;
+    background-color: #2e4790;
+}
+
+.jb-right h5 {
+    margin-top: 15px;
+}
+
+.jb-left {
+    width: 50%;
+}
+
+.jb-left img {
+    width: 800px;
+}
+
+//main
+
+.main {
+    background-color: $background_color;
+    color: $brand_primary_color;
+}
+
+.top {
+    border-bottom: 1px solid $brand_primary_color;
+}
+
+.bg-light img {
+    width: 150px;
 }
